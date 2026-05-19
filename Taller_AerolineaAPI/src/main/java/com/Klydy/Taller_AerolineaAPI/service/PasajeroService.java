@@ -1,7 +1,7 @@
-package com.aerolineaapi.service;
+package com.Klydy.Taller_AerolineaAPI.service;
 
-import com.Klydy.Taller_AerolineaAPI.repository.VueloRepository.model.Pasajero;
-import com.aerolineaapi.repository.PasajeroRepository;
+import com.Klydy.Taller_AerolineaAPI.model.Pasajero;
+import com.Klydy.Taller_AerolineaAPI.repository.PasajeroRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
