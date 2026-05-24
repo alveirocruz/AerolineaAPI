@@ -2,6 +2,7 @@ package com.Klydy.Taller_AerolineaAPI.service;
 
 import com.Klydy.Taller_AerolineaAPI.model.Vuelo;
 import com.Klydy.Taller_AerolineaAPI.repository.VueloRepository;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,5 +24,16 @@ public class VueloService {
 
     public Vuelo save(Vuelo vuelo) {
         return vueloRepository.save(vuelo);
+    }
+
+    public Vuelo findById(Long id) {
+        return null;
+    }
+
+    public Vuelo update(Long id, @Valid Vuelo datos) {
+        return datos;
+    }
+
+    public void delete(Long id) {
     }
 }
